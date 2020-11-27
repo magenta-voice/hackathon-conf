@@ -1,0 +1,12 @@
+on: push
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      env: # Or as an environment variable
+        secret: ${{ secrets.SECRET }}
+        url: ${{ secrets.URL }}
+      run: |
+        curl -k -X POST -H "Authorization: Bearer $secret" $url
+
