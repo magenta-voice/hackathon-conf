@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "TEAM_00_INVOKE_SMART_COFFEE_MACHINE",
+    "pattern": "Mach mir Kaffee",
+    "entities": [
+    ]
+  }
+]
