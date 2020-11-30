@@ -9,13 +9,13 @@
     "created": "2020-10-12T11:24:56.263Z",
     "intents": [
         {
-        "name": "TEAM_00_INVOKE_SMART_COFFEE_MACHINE",
+        "name": "TEAM_00_RANDOM_MEME",
         "ttl": {
             "interactions": 0,
             "minutes": 0
         },
         "requiredEntities": [],
-        "entityFiller": "HACKATHON_REPROMPT__REPROMPT",
+        "entityFiller": null,
         "fallbackToNoSession": false,
         "entities": [],
         "prompts": [],
