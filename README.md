@@ -29,7 +29,7 @@ Create the regex NLU for your usecase like so:
 ]
 ```
 
-Create your domain context metadata using [dcm](https://github.com/4thel00z/dcm):
+Create your domain context metadata using [dcm](https://github.com/4thel00z/dcm/releases/latest):
 
 [![asciicast](https://asciinema.org/a/dMSSqApnb5XKtb3YpP40WTZH5.svg)](https://asciinema.org/a/dMSSqApnb5XKtb3YpP40WTZH5)
 
