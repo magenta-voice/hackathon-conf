@@ -16,7 +16,7 @@
         },
         "requiredEntities": [],
         "entityFiller": null,
-        "fallbackToNoSession": false,
+        "fallbackToNoSession": true,
         "entities": [],
         "prompts": [],
         "requiredTokens": [],
