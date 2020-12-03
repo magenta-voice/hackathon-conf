@@ -1,6 +1,11 @@
 [
   {
     "name": "TEAM_00_RANDOM_MEME",
+    "pattern": "(?:.*)zufallszahl(?:.*)",
+    "entities": []
+  },
+  {
+    "name": "TEAM_00_RANDOM_MEME",
     "pattern": "(?:.*)zufall(?:.*)",
     "entities": []
   }
