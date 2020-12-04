@@ -7,5 +7,20 @@
     "answerModelMinConfidence": null,
     "type": "nuance",
     "created": "2020-10-12T11:24:56.263Z",
-    "intents": []
+    "intents": [
+        {
+        "name": "TEAM_09_LAUNCH_INTENT",
+        "ttl": {
+            "interactions": 0,
+            "minutes": 0
+        },
+        "requiredEntities": [],
+        "entityFiller": null,
+        "fallbackToNoSession": true,
+        "entities": [],
+        "prompts": [],
+        "requiredTokens": [],
+        "errors": []
+    }]
+    
 }

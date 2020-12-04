@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "TEAM_09_LAUNCH_INTENT",
+    "pattern": "(?:.*)hallihallo(?:.*)",
+    "entities": []
+  }
+]
