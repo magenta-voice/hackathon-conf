@@ -10,6 +10,7 @@
     "intents":[
         {
             "name":"TEAM_06_START_TIME_TRACKING",
+<<<<<<< HEAD
             "ttl":
                 {
                     "interactions":0,
@@ -159,3 +160,19 @@
 
 }
 
+=======
+            "ttl":{ 
+                "interactions":0,
+                "minutes":0
+        },
+        "requiredEntities":[],
+        "entityFiller":"",
+        "fallbackToNoSession":true,
+        "entities":[],
+        "prompts":[],
+        "requiredTokens":[],
+        "errors":[]
+        }
+    ]
+}
+>>>>>>> e07522c... fix first try
