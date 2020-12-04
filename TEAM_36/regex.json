@@ -1,1 +1,7 @@
-[]
+[
+    {
+      "name": "TEAM_36_NODE_RED",
+      "pattern": "(.*)",
+      "entities": ["nodered"]
+    }
+]
