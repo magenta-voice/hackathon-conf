@@ -13,7 +13,7 @@
                 {   "interactions":0,
                     "minutes":1
                 },
-                "requiredEntities":[[]],
+                "requiredEntities":[],
                 "entityFiller":"",
                 "fallbackToNoSession":false,
                 "entities":[
