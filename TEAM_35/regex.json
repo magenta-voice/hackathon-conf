@@ -1,7 +1,7 @@
 [
     {
       "name": "TEAM_35_START_VIRTUAL_TEACHER",
-      "pattern": "(?:.*)starte virtueller Lehrer(?:.*)",
+      "pattern": "(?:.*)(L|l)ehrer(?:.*)",
       "entities": []
     }
   ]
