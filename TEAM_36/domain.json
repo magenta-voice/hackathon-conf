@@ -11,7 +11,11 @@
         {   "name":"TEAM_36_NODE_RED",
             "ttl":
                 {   "interactions":0,
+<<<<<<< HEAD
                     "minutes":1
+=======
+                    "minutes":0
+>>>>>>> d38b1d02792aab4f46f1857b9e7430aafb4833d1
                 },
                 "requiredEntities":[],
                 "entityFiller":"",
