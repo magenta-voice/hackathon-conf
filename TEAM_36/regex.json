@@ -1,11 +1,7 @@
 [
-    {
-      "name": "TEAM_36_NODE_RED",
-      "pattern": "(.*)rot(.*)",
-<<<<<<< HEAD
-      "entities": ["nodered"]
-=======
-      "entities": []
->>>>>>> d38b1d02792aab4f46f1857b9e7430aafb4833d1
-    }
+  {
+    "name": "TEAM_36_NODE_RED",
+    "pattern": "(.*)rot(.+)",
+    "entities": ["nodered"]
+  }
 ]
