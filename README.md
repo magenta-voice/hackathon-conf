@@ -10,6 +10,10 @@ In the future all of the things you can do here should and will be consolidated 
 For the course of this hackathon we decided only to expose the RegexNLU mechanism to build skills.
 In case you want to use a [LUIS model](https://eu.luis.ai/) please contact the organisational team in the [slack](https://remoterhapsod-wxc4115.slack.com). 
 
+## Important
+
+Please prefix your intents in the `domain.json`, `answer-regex.json` and `regex.json` with your `TEAM_XY_` identifier.
+
 ## How to use
 
 ### I want to build a simple skill without a reprompt model
