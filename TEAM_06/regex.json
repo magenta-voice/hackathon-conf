@@ -1,42 +1,7 @@
 [
     {
       "name": "TEAM_06_START_TIME_TRACKING",
-      "pattern": "(?:.*)Zeiterfassung starten(?:.*)",
-      "entities": []
-    },
-    {
-      "name": "TEAM_06_OPEN_TIME_TRACKING",
-      "pattern": "(?:.*)Zeiterfassung öffnen(?:.*)",
-      "entities": []
-    },
-    {
-      "name": "TEAM_06_STOP_TIME_TRACKING",
-      "pattern": "(?:.*)Zeiterfassung stoppen(?:.*)",
-      "entities": []
-    },
-    {
-      "name": "TEAM_06_SHOW_TIME_TRACKING",
-      "pattern": "(?:.*)Stunden(?:.*)",
-      "entities": []
-    },
-    {
-      "name": "TEAM_06_ADD_PROJECT",
-      "pattern": "(?:.*)[Aa]m (?P<project>.*)",
-      "entities": ["project"]
-    },
-    {
-      "name": "TEAM_06_ADD_TASK",
-      "pattern": "(?:.*)(ich möchte|ich werde) (die|den|das)(?P<task>.*)",
-      "entities": ["task"]
-    },
-    {
-      "name": "TEAM_06_YES",
-      "pattern": "(?:.*)[Jj]a(?:.*)",
-      "entities": []
-    },
-    {
-      "name": "TEAM_06_NO",
-      "pattern": "(?:.*)[Nn]ein(?:.*)",
+      "pattern": "(?:.*)starte Zeiterfassung(?:.*)",
       "entities": []
     }
   ]
