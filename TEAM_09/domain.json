@@ -1,26 +1,35 @@
 {
-    "version": 1,
-    "exportVersion": "1",
-    "model": null,
-    "modelMinConfidence": null,
-    "answerModel": null,
-    "answerModelMinConfidence": null,
-    "type": "nuance",
-    "created": "2020-10-12T11:24:56.263Z",
-    "intents": [
+  "version": 1,
+  "exportVersion": "1",
+  "model": null,
+  "modelMinConfidence": null,
+  "answerModel": null,
+  "answerModelMinConfidence": null,
+  "type": "nuance",
+  "created": "2020-10-12T11:24:56.263Z",
+  "intents": [
+    {
+      "name": "TEAM_09_LAUNCH_INTENT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": null,
+      "fallbackToNoSession": true,
+      "entities": [
         {
-        "name": "TEAM_09_LAUNCH_INTENT",
-        "ttl": {
-            "interactions": 0,
-            "minutes": 0
-        },
-        "requiredEntities": [],
-        "entityFiller": null,
-        "fallbackToNoSession": true,
-        "entities": [],
-        "prompts": [],
-        "requiredTokens": [],
-        "errors": []
-    }]
-    
+          "name": "sometext",
+          "type": "FREETEXT",
+          "fillPolicy": ["context"],
+          "ttl": { "interactions": 0, "minutes": 0 },
+          "useFromSession": false,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }
+  ]
 }
