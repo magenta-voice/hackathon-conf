@@ -28,15 +28,5 @@
         "name": "TEAM_06_ADD_TASK",
         "pattern": "ich (?:möchte|werde) (?:die|den|das) (.*)",
         "entities": ["task"]
-      },
-      {
-        "name": "TEAM_06_YES",
-        "pattern": "(?:.*)[Jj]a(?:.*)",
-        "entities": []
-      },
-      {
-        "name": "TEAM_06_NO",
-        "pattern": "(?:.*)[Nn]ein(?:.*)",
-        "entities": []
       }
 ]

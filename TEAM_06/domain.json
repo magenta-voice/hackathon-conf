@@ -124,36 +124,6 @@
             "prompts":[],
             "requiredTokens":[],
             "errors":[]
-        },
-        {
-            "name":"TEAM_06_YES",
-            "ttl":
-                {
-                    "interactions":0,
-                    "minutes":0
-                },
-                "requiredEntities":[],
-                "entityFiller":"",
-                "fallbackToNoSession":true,
-                "entities":[],
-                "prompts":[],
-                "requiredTokens":[],
-                "errors":[]
-        },
-        {
-            "name":"TEAM_06_NO",
-            "ttl":
-            {
-                "interactions":0,
-                "minutes":0
-            },
-            "requiredEntities":[],
-            "entityFiller":"",
-            "fallbackToNoSession":true,
-            "entities":[],
-            "prompts":[],
-            "requiredTokens":[],
-            "errors":[]
         }
     ]
 }
