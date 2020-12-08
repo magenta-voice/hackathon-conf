@@ -1,1 +1,13 @@
-[]
+[
+    {
+      "name": "TEAM__21__ASK__HOBBIES",
+      "pattern": "(?:.*)[H|h]obbies (?:plan|erfass|eintrag)(?:en)?(?:.*)",
+      "entities": []
+    },
+    {
+        "name": "TEAM__21__TELL__HOBBIES",
+        "pattern": "(?:.*)Ich (?:mag(?:en)?|spiele(?:n)? (?:gern(?:e)?)?|treibe(?:n)?)(.*)(?:.*)",
+        "entities": ["hobbies"]
+      }
+  ]
+  
