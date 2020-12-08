@@ -9,7 +9,7 @@
     "created": null,
     "intents": [
         {
-            "name": "TEAM__21__TELL__HOBBIES",
+            "name": "TEAM_21_TELL_HOBBIES",
             "ttl": {
                 "interactions": 0,
                 "minutes": 0
@@ -37,7 +37,7 @@
             "errors": []
         },
         {
-            "name": "TEAM__21__ASK__HOBBIES",
+            "name": "TEAM_21_ASK_HOBBIES",
             "ttl": {
                 "interactions": 0,
                 "minutes": 0
