@@ -1,12 +1,12 @@
 [
     {
       "name": "TEAM_31_HOSA_CONFIG",
-      "pattern": "(?:.*)hosa(?:.*)(?:.*)einstellung(?:.*)",
+      "pattern": "(?:.*)hosa(?:.*)einstellung(?:.*)",
       "entities": []
     }, 
     {
         "name": "TEAM_31_HOSA_START",
-        "pattern": "(?:.*)hosa(?:.*)(?:.*)start(?:.*)",
+        "pattern": "(?:.*)hosa(?:.*)start(?:.*)",
         "entities": []
     }
 ]
