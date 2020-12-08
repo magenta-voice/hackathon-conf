@@ -6,7 +6,7 @@
   },
   {
     "name": "TEAM_23_STOP_INTENT",
-    "pattern": "(?:.*)[Bb]eende(?:.*)",
+    "pattern": "(?:.*)[Ii]ch bin fertig(?:.*)",
     "entities": []
   }
 ]
