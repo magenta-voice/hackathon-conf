@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "TEAM_23_START_INTENT",
+    "pattern": "(?:.*)[Ss]tarte(.*)",
+    "entities": ["category"]
+  },
+  {
+    "name": "TEAM_23_STOP_INTENT",
+    "pattern": "(?:.*)[Bb]eende(?:.*)",
+    "entities": []
+  }
+]
