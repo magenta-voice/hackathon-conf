@@ -2,9 +2,9 @@
     "version": 1,
     "exportVersion": "1",
     "model": null,
-    "modelMinConfidence": null,
+    "modelMinConfidence": 0.5,
     "answerModel": null,
-    "answerModelMinConfidence": null,
+    "answerModelMinConfidence": 0.5,
     "type": "nuance",
     "created": "2020-10-12T11:24:56.263Z",
     "intents": [
