@@ -53,5 +53,5 @@
         "name": "TEAM_24_URGENT_TASKS",
         "pattern": "(?:.*)dringend(?:.*)",
         "entities": []
-    },
+    }
   ]
