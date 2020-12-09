@@ -1,7 +1,7 @@
 [
   {
     "name": "TEAM_09_LAUNCH_INTENT",
-    "pattern": "frage help desk nach (.*)",
+    "pattern": "wer hilft mir beim thema (.*)",
     "entities": ["sometext"]
   }
 ]
