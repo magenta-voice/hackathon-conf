@@ -6,7 +6,7 @@
     },
     {
         "name": "TEAM_02_ADD_QUESTIONS_ANSWER_COMPLETE",
-        "pattern": "(?:.*)[I|i]ch sage [ja|nein](?:.*)",
+        "pattern": "(?:.*)[I|i]ch antworte(?:.*)",
         "entities": []
     },
     {
