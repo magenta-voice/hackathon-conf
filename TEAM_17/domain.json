@@ -1,11 +1,26 @@
 {
-    "version": 1,
-    "exportVersion": "1",
-    "model": null,
-    "modelMinConfidence": null,
-    "answerModel": null,
-    "answerModelMinConfidence": null,
-    "type": "nuance",
-    "created": "2020-10-12T11:24:56.263Z",
-    "intents": []
+  "version": 1,
+  "exportVersion": "1",
+  "model": null,
+  "modelMinConfidence": 0.5,
+  "answerModel": null,
+  "answerModelMinConfidence": 0.5,
+  "type": "nuance",
+  "created": null,
+  "intents": [
+    {
+      "name": "TEAM_17_SENSE_OF_LIFE",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }
+  ]
 }
