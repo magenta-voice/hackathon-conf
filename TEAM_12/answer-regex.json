@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "name": "TEAM_12_MEMORIEREN",
+    "pattern": "(?:.*)Lernkarte überprüfen(?:.*)",
+    "entities": []
+  },
+  
+  {
+    "name": "TEAM_12_FRAGEN_CARD",
+    "pattern": "(?:.*)Lernkarte erstellen(?:.*)",
+    "entities": []
+  }
+]
