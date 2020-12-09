@@ -8,6 +8,11 @@
         "name": "TEAM_21_TELL_HOBBIES",
         "pattern": "(?:.*)Ich (?:mag(?:en)?|spiele(?:n)? (?:gern(?:e)?)?|treibe(?:n)?)(.*)(?:.*)",
         "entities": ["hobbies"]
+      },
+      {
+        "name": "TEAM_21_LOGIN",
+        "pattern": "(?:.*)(?:anmelden)(?:.*)",
+        "entities": []
       }
   ]
   
