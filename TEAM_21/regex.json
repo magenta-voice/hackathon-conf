@@ -11,7 +11,7 @@
       },
       {
         "name": "TEAM_21_LOGIN",
-        "pattern": "(?:.*)(?:anmelden)(?:.*)",
+        "pattern": "(?:.*)[pP]lan(?:e)?(?:n)? (?:erstelle|erfasse|eintrage|einsetze(?:n)?)(?:.*)",
         "entities": []
       }
   ]
