@@ -1,13 +1,22 @@
-[
+[ 
     {
-      "name": "TEAM_12_MEMORIEREN",
-      "pattern": "(?:.*)Lernkarte überprüfen(?:.*)",
-      "entities": []
+      "name": "TEAM_12_FLASHCARD_QUESTION",
+      "pattern": "(?:.*)(D|d)ie (F|f)rage ist (.*)",
+      "entities": ["quiz"]
     },
-  
     {
-      "name": "TEAM_12_FRAGEN_CARD",
-      "pattern": "(?:.*)Lernkarte erstellen(?:.*)",
-      "entities": []
+      "name": "TEAM_12_FLASHCARD_ANSWER",
+      "pattern": "(?:.*)(D|d)ie (A|n)ntwort ist (.*)",
+      "entities": ["answer"]
+    },
+    {
+      "name": "TEAM_12_FLASHCARD_TOPIC",
+      "pattern": "(?:.*)(D|d)as (T|t)hema ist (.*)",
+      "entities": ["topic"]
+    },
+    {
+      "name": "TEAM_12_REVIEW_ANSWER",
+      "pattern": "(?:.*)(M|m)eine (A|n)ntwort ist (.*)",
+      "entities": ["answer"]
     }
-  ]
+]
