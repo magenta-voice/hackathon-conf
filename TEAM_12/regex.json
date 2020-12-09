@@ -7,7 +7,7 @@
   
   {
     "name": "TEAM_12_REVIEW",
-    "pattern": "(?:.*)(F|f)rag(?:.*)",
-    "entities": []
+    "pattern": "(F|f)ragen Sie mich zum (T|t)hema (.*)",
+    "entities": ["topic"]
   }
 ]
