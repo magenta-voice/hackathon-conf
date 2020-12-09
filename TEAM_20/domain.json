@@ -9,7 +9,7 @@
     "created": null,
     "intents": [
         {
-            "name": "TEAM_20_Happiness",
+            "name": "TEAM_20_HAPPINESS",
             "ttl": {
               "interactions": 0,
               "minutes": 0

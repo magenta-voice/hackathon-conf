@@ -1,6 +1,6 @@
 [
     {
-        "name": "TEAM_00_HAPPINESS",
+        "name": "TEAM_20_HAPPINESS",
         "pattern": "(?:.*)glücklich(?:.*)|(?:.*)zufrieden(?:.*)|(?:.*)traurig(?:.*)",
         "entities": []
     }
