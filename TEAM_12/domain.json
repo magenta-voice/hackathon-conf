@@ -9,31 +9,18 @@
     "created": null,
     "intents": [
         {
-            "name": "TEAM_12_MEMORIEREN",
+            "name": "TEAM_12_CREATE_FLASHCARD",
             "ttl": {
                 "interactions": 0,
                 "minutes": 1
             },
             "requiredEntities": [],
             "entityFiller": "",
-            "fallbackToNoSession": false,
+            "fallbackToNoSession": true,
             "entities": [
                 {
                     "name": "user_id",
                     "type": "USER_ID_HASH",
-                    "fillPolicy": [
-                        "environment"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": true,
-                    "mappable": true
-                },
-                {
-                    "name": "text",
-                    "type": "STT_RESULT",
                     "fillPolicy": [
                         "environment"
                     ],
@@ -50,14 +37,14 @@
             "errors": []
         },
         {
-            "name": "TEAM_12_FRAGEN_CARD",
+            "name": "TEAM_12_FLASHCARD_QUESTION",
             "ttl": {
                 "interactions": 0,
                 "minutes": 1
             },
             "requiredEntities": [],
             "entityFiller": "",
-            "fallbackToNoSession": false,
+            "fallbackToNoSession": true,
             "entities": [
                 {
                     "name": "user_id",
@@ -73,8 +60,118 @@
                     "mappable": true
                 },
                 {
-                    "name": "text",
-                    "type": "STT_RESULT",
+                    "name": "quiz",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": false
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_12_FLASHCARD_ANSWER",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 1
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "answer",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": false
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_12_FLASHCARD_TOPIC",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 1
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "topic",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": false
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_12_FLASHCARD_REVIEW",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 1
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
                     "fillPolicy": [
                         "environment"
                     ],
@@ -89,6 +186,48 @@
             "prompts": [],
             "requiredTokens": [],
             "errors": []
+        },
+        {
+            "name": "TEAM_12_FLASHCARD_REVIEW_ANSWER",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 1
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "answer",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": false
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
         }
+
     ]
 }
