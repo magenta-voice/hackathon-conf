@@ -16,7 +16,7 @@
             },
             "requiredEntities": [],
             "entityFiller": "",
-            "fallbackToNoSession": false,
+            "fallbackToNoSession": true,
             "entities": [
                 {
                     "name": "user_id",
@@ -57,7 +57,7 @@
             },
             "requiredEntities": [],
             "entityFiller": "",
-            "fallbackToNoSession": false,
+            "fallbackToNoSession": true,
             "entities": [
                 {
                     "name": "user_id",
