@@ -12,7 +12,7 @@
             "name": "TEAM_12_CREATE_FLASHCARD",
             "ttl": {
                 "interactions": 0,
-                "minutes": 1
+                "minutes": 0
             },
             "requiredEntities": [],
             "entityFiller": "",
@@ -40,7 +40,7 @@
             "name": "TEAM_12_FLASHCARD_QUESTION",
             "ttl": {
                 "interactions": 0,
-                "minutes": 1
+                "minutes": 0
             },
             "requiredEntities": [],
             "entityFiller": "",
@@ -81,7 +81,7 @@
             "name": "TEAM_12_FLASHCARD_ANSWER",
             "ttl": {
                 "interactions": 0,
-                "minutes": 1
+                "minutes": 0
             },
             "requiredEntities": [],
             "entityFiller": "",
@@ -122,7 +122,7 @@
             "name": "TEAM_12_FLASHCARD_TOPIC",
             "ttl": {
                 "interactions": 0,
-                "minutes": 1
+                "minutes": 0
             },
             "requiredEntities": [],
             "entityFiller": "",
@@ -163,7 +163,7 @@
             "name": "TEAM_12_FLASHCARD_REVIEW",
             "ttl": {
                 "interactions": 0,
-                "minutes": 1
+                "minutes": 0
             },
             "requiredEntities": [],
             "entityFiller": "",
@@ -191,7 +191,7 @@
             "name": "TEAM_12_FLASHCARD_REVIEW_ANSWER",
             "ttl": {
                 "interactions": 0,
-                "minutes": 1
+                "minutes": 0
             },
             "requiredEntities": [],
             "entityFiller": "",
