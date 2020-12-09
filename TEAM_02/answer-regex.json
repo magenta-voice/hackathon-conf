@@ -1,1 +1,27 @@
-[]
+[
+    {
+        "name": "TEAM_02_ADD_QUESTIONS_ANSWER",
+        "pattern": "(?:.*)[F|f]rage lautet(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_02_ADD_QUESTIONS_ANSWER_COMPLETE",
+        "pattern": "(?:.*)[I|i]ch sage [ja|nein](?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_02_ADD_QUESTIONS",
+        "pattern": "(?:.*)[N|n]och [E|e]ine [F|f]rage(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_02_ASK_QUESTIONS_ANSWER",
+        "pattern": "(?:.*)[M|m]eine [A|a]ntwort(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_02_ASK_QUESTIONS",
+        "pattern": "(?:.*)bereit(?:.*)",
+        "entities": []
+    }  
+]
