@@ -6,6 +6,35 @@
     "answerModel": null,
     "answerModelMinConfidence": null,
     "type": "nuance",
-    "created": "2020-10-12T11:24:56.263Z",
-    "intents": []
+    "created": null,
+    "intents": [
+        {
+            "name": "TEAM_20_Happiness",
+            "ttl": {
+              "interactions": 0,
+              "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+              {
+                "name": "user_id",
+                "type": "USER_ID_HASH",
+                "fillPolicy": [
+                  "environment"
+                ],
+                "ttl": {
+                  "interactions": 0,
+                  "minutes": 0
+                },
+                "useFromSession": true,
+                "mappable": true
+              }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+          }
+    ]
 }
