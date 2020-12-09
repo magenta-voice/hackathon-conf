@@ -1,10 +1,5 @@
 [
     {
-      "name": "TEAM_24_ASSIGN_TASK",
-      "pattern": "(?:.*)Weisen(?:.*)",
-      "entities": ["username", "taskname"]
-    },
-    {
         "name": "TEAM_24_ASSIGN_TASK",
         "pattern": "Weisen sie ([^.]+|\\S+) die Aufgabe\\s*([^.]+|\\S+) zu.",
         "entities": ["username", "taskname"]
@@ -16,22 +11,7 @@
     },
     {
         "name": "TEAM_24_COWORKER_STATUS",
-        "pattern": "(?:.*)Was macht(?:.*)",
-        "entities": ["username"]
-    },
-    {
-        "name": "TEAM_24_COWORKER_STATUS",
         "pattern": "Was macht \\s*([^.]+|\\S+)",
-        "entities": ["username"]
-    },
-    {
-        "name": "TEAM_24_CALL",
-        "pattern": "(?:.*)Rufen(?:.*)",
-        "entities": ["username"]
-    },
-    {
-        "name": "TEAM_24_CALL",
-        "pattern": "Bitte rufen Sie \\s*([^.]+|\\S+) an",
         "entities": ["username"]
     },
     {
@@ -50,23 +30,8 @@
         "entities": ["taskname"]
     },
     {
-        "name": "TEAM_24_NEW_TASK",
-        "pattern": "neue Aufgabe namens \\s*([^.]+|\\S+).",
-        "entities": ["taskname"]
-    },
-    {
-        "name": "TEAM_24_OVERDUE_TASKS",
-        "pattern": "(?:.*)sind überfällig(?:.*)",
-        "entities": []
-    },
-    {
         "name": "TEAM_24_OVERDUE_TASKS",
         "pattern": "(?:.*)überfällige Aufgaben(?:.*)",
-        "entities": []
-    },
-    {
-        "name": "TEAM_24_PROJECT_STATUS",
-        "pattern": "(?:.*)Status des Projekts(?:.*)",
         "entities": []
     },
     {
@@ -80,18 +45,8 @@
         "entities": []
     },
     {
-        "name": "TEAM_24_RECOMMEND_ALLOCATION",
-        "pattern": "(?:.*)Projektzuweisung(?:.*)",
-        "entities": []
-    },
-    {
         "name": "TEAM_24_UPDATE_ME",
         "pattern": "(?:.*)Neuigkeiten(?:.*)",
-        "entities": []
-    },
-    {
-        "name": "TEAM_24_UPDATE_ME",
-        "pattern": "(?:.*)passiert(?:.*)",
         "entities": []
     },
     {

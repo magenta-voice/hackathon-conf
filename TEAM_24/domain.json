@@ -217,38 +217,6 @@
             "errors": []
         },
         {
-            "name": "TEAM_24_CALL",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [
-                [
-                    "username"
-                ]
-            ],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "username",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
             "name": "TEAM_24_SCHEDULE_MEETING",
             "ttl": {
                 "interactions": 0,
