@@ -1,1 +1,28 @@
-[]
+[
+    {
+      "name": "TEAM_02_CHECK_QUESTIONS",
+      "pattern": "(?:.*)[F|f]ragen habe ich(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_ADD_QUESTIONS",
+      "pattern": "(?:.*)[F|f]rage hinzu(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_ASK_QUESTIONS",
+      "pattern": "(?:.*)[S|s]tell mir(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_MATCHES_COUNT",
+      "pattern": "(?:.*)durch meine(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_MATCHES_CONTACTS",
+      "pattern": "(?:.*)[K|k]ontakte(?:.*)",
+      "entities": []
+    }
+]
+  
