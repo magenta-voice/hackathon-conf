@@ -30,6 +30,19 @@
           },
           "useFromSession": false,
           "mappable": true
+        },
+		{
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
         }
       ],
       "prompts": [],
@@ -45,7 +58,49 @@
       "requiredEntities": [],
       "entityFiller": "",
       "fallbackToNoSession": true,
-      "entities": [],
+      "entities": [
+	  {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+	  ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_23_STATS_INTENT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
+	  {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+	  ],
       "prompts": [],
       "requiredTokens": [],
       "errors": []
