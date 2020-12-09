@@ -8,5 +8,10 @@
     "name": "TEAM_23_STOP_INTENT",
     "pattern": "(?:.*)[Ii]ch bin fertig(?:.*)",
     "entities": []
+  },
+  {
+    "name": "TEAM_23_STATS_INTENT",
+    "pattern": "(?:.*)[Ss]tatistik(?:.*)",
+    "entities": []
   }
 ]
