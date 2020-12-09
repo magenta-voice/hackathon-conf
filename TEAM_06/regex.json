@@ -1,7 +1,17 @@
 [
     {
       "name": "TEAM_06_START_TIME_TRACKING",
-      "pattern": "(?:.*)starte Zeiterfassung(?:.*)",
+      "pattern": "(?:.*)Zeiterfassung starten(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_06_OPEN_TIME_TRACKING",
+      "pattern": "(?:.*)Zeiterfassung öffnen(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_06_SHOW_TIME_TRACKING",
+      "pattern": "(?:.*)Stunden(?:.*)",
       "entities": []
     }
   ]

@@ -15,7 +15,7 @@
                 },
                 "requiredEntities":[],
                 "entityFiller":"",
-                "fallbackToNoSession":false,
+                "fallbackToNoSession":true,
                 "entities":[
                     {   "name":"nodered",
                         "type":"FREETEXT",
