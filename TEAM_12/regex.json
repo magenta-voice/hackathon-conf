@@ -6,7 +6,7 @@
   },
   
   {
-    "name": "TEAM_12_REVIEW",
+    "name": "TEAM_12_FLASHCARD_REVIEW",
     "pattern": "(F|f)ragen Sie mich zum (T|t)hema (.*)",
     "entities": ["topic"]
   }
