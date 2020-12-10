@@ -48,6 +48,89 @@
             "prompts": [],
             "requiredTokens": [],
             "errors": []
+        },
+        {
+            "name": "TEAM_10_ADD_ROUTINE",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": false,
+            "entities": [
+                {
+                    "name": "routine_description",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                }, 
+                {
+                    "name": "routine_time",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_10_RETRIEVE_TASK",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": false,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_10_RETRIEVE_ROUTINE",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": false,
+            "entities": [
+                {
+                    "name": "routine_time",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
         }
     ]
 }
