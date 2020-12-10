@@ -1,1 +1,7 @@
-[]
+[
+{
+    "name": "TEAM_10_ADD_TASK",
+    "pattern": "bis (.*)",
+    "entities": ["deadline"]
+  }
+]
