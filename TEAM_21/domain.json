@@ -9,49 +9,7 @@
     "created": null,
     "intents": [
         {
-            "name": "TEAM_21_ASK_HOBBIES",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": true,
-            "entities": [],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
             "name": "TEAM_21_TELL_HOBBIES",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": true,
-            "entities": [
-                {
-                    "name": "hobbies",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_21_LOGIN",
             "ttl": {
                 "interactions": 0,
                 "minutes": 0
@@ -71,6 +29,183 @@
                         "minutes": 0
                     },
                     "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "hobbies",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_21_CREATE_EVENT",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "phone",
+                    "type": "PHONE_NAMES",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_21_CREATE_AUTOMATIC_EVENT",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_21_OTHER_EVENTS",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "activity",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_21_GYM",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                },
+                {
+                    "name": "hours",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                },
+                {
+                    "name": "minutes",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
                     "mappable": true
                 }
             ],
