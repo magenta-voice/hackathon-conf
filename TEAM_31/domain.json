@@ -9,6 +9,20 @@
     "created": null,
     "intents": [
         {
+            "name": "TEAM_31_HOSA_START",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
             "name": "TEAM_31_HOSA_CONFIG",
             "ttl": {
                 "interactions": 0,
@@ -23,7 +37,49 @@
             "errors": []
         },
         {
-            "name": "TEAM_31_HOSA_START",
+            "name": "TEAM_31_HOSA_DONE",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_31_HOSA_YES_NO",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_31_HOSA_CHOOSE",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_31_HOSA_RANDOM",
             "ttl": {
                 "interactions": 0,
                 "minutes": 0
