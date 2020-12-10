@@ -1,1 +1,17 @@
-[]
+[
+  {
+      "name": "TEAM_31_HOSA_YES_NO",
+      "pattern": "(?:.*)(J|j)a|(N|n)ein(?:.*)",
+      "entities": []
+    }, 
+    {
+        "name": "TEAM_31_HOSA_CHOOSE",
+        "pattern": "(?:.*)(I|i)ch wähle(?:.*)",
+        "entities": []
+    }, 
+    {
+        "name": "TEAM_31_HOSA_RANDOM",
+        "pattern": "(?:.*)(Z|z)ufall(?:.*)",
+        "entities": []
+    }
+]
