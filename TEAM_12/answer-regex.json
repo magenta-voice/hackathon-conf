@@ -15,7 +15,7 @@
       "entities": ["topic"]
     },
     {
-      "name": "TEAM_12_REVIEW_ANSWER",
+      "name": "TEAM_12_FLASHCARD_REVIEW_ANSWER",
       "pattern": "(?:.*)(M|m)eine (A|n)ntwort ist (.*)",
       "entities": ["answer"]
     }
