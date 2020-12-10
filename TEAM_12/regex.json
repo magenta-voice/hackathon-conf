@@ -4,10 +4,39 @@
     "pattern": "(?:.*)(E|e)rstellen Sie die (L|l)ernkarte(?:.*)",
     "entities": []
   },
-  
   {
     "name": "TEAM_12_FLASHCARD_REVIEW",
     "pattern": "(F|f)ragen Sie mich zum (T|t)hema (.*)",
-    "entities": ["topic"]
+    "entities": [
+      "topic"
+    ]
+  },
+  {
+    "name": "TEAM_12_FLASHCARD_QUESTION",
+    "pattern": "(?:.*)(D|d)ie (F|f)rage ist (.*)",
+    "entities": [
+      "quiz"
+    ]
+  },
+  {
+    "name": "TEAM_12_FLASHCARD_ANSWER",
+    "pattern": "(?:.*)(D|d)ie (A|n)ntwort ist (.*)",
+    "entities": [
+      "answer"
+    ]
+  },
+  {
+    "name": "TEAM_12_FLASHCARD_TOPIC",
+    "pattern": "(?:.*)(D|d)as (T|t)hema ist (.*)",
+    "entities": [
+      "topic"
+    ]
+  },
+  {
+    "name": "TEAM_12_FLASHCARD_REVIEW_ANSWER",
+    "pattern": "(?:.*)(M|m)eine (A|n)ntwort ist (.*)",
+    "entities": [
+      "answer"
+    ]
   }
 ]
