@@ -183,7 +183,7 @@
                     "mappable": true
                 },
                 {
-                    "name": "answer",
+                    "name": "topic",
                     "type": "FREETEXT",
                     "fillPolicy": [
                         "context"
