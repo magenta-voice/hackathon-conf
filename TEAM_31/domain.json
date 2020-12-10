@@ -51,7 +51,21 @@
             "errors": []
         },
         {
-            "name": "TEAM_31_HOSA_YES_NO",
+            "name": "TEAM_31_HOSA_YES",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_31_HOSA_NO",
             "ttl": {
                 "interactions": 0,
                 "minutes": 0
