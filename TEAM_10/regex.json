@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "name": "TEAM_10_ADD_TASK",
+        "pattern": "(?:.*)Ich muss (.*) erledigen",
+        "entities": ["task_to_add", "deadline"]
+    },
+    {
+        "name": "TEAM_10_ADD_ROUTINE",
+        "pattern": "(?:.*)Setze routine (.*) für (.*)",
+        "entities": ["routine_description", "routine_time"]
+    },
+    {
+        "name": "TEAM_10_RETRIEVE_TASK",
+        "pattern": "(?:.*)Welche Aufgaben(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_10_RETRIEVE_ROUTINE",
+        "pattern": "(?:.*)Welche routine habe ich für (.*)",
+        "entities": ["routine_time"]
+    }
+]

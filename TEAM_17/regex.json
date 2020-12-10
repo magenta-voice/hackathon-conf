@@ -19,4 +19,8 @@
     "pattern": "Koch Zutaten",
     "entities": []
   },
+  "name": "TEAM_17_SENSE_OF_LIFE",
+  "pattern": "(?:.*)gurken(?:.*)",
+  "entities": []
+  }
 ]

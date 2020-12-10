@@ -1,26 +1,206 @@
 {
-    "version":1,
-    "exportVersion":"1",
-    "model":null,
-    "modelMinConfidence":0.5,
-    "answerModel":null,
-    "answerModelMinConfidence":0.5,
-    "type":"nuance",
-    "created":null,
-    "intents":[
+  "version": 1,
+  "exportVersion": "1",
+  "model": null,
+  "modelMinConfidence": 0.5,
+  "answerModel": null,
+  "answerModelMinConfidence": 0.5,
+  "type": "nuance",
+  "created": null,
+  "intents": [
+    {
+      "name": "TEAM_06_START_TIME_TRACKING",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
         {
-            "name":"TEAM_06_START_TIME_TRACKING",
-            "ttl":{ 
-                "interactions":0,
-                "minutes":0
-        },
-        "requiredEntities":[],
-        "entityFiller":"",
-        "fallbackToNoSession":true,
-        "entities":[],
-        "prompts":[],
-        "requiredTokens":[],
-        "errors":[]
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
         }
-    ]
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_06_OPEN_TIME_TRACKING",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_06_STOP_TIME_TRACKING",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_06_SHOW_TIME_TRACKING",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_06_ADD_PROJECT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "project",
+          "type": "FREETEXT",
+          "fillPolicy": [
+            "context"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": false
+        },
+        {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_06_ADD_TASK",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "task",
+          "type": "FREETEXT",
+          "fillPolicy": [
+            "context"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": false
+        },
+        {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }
+  ]
 }
