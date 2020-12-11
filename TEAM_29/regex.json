@@ -1,6 +1,6 @@
 [
   {
-    "name": "TEAM_29_ORDER",
+    "name": "TEAM_29_ORDER_FOOD",
     "pattern": "(.*)essen(?:.*)",
     "entities": ["food"]
   }
