@@ -91,6 +91,34 @@
             "errors": []
         },
         {
+            "name": "TEAM_21_ASK_HOBBIES",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [
+                {
+                    "name": "user_id",
+                    "type": "USER_ID_HASH",
+                    "fillPolicy": [
+                        "environment"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": true,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
             "name": "TEAM_21_CREATE_AUTOMATIC_EVENT",
             "ttl": {
                 "interactions": 0,
