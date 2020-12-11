@@ -1,11 +1,52 @@
 {
-    "version": 1,
-    "exportVersion": "1",
-    "model": null,
-    "modelMinConfidence": null,
-    "answerModel": null,
-    "answerModelMinConfidence": null,
-    "type": "nuance",
-    "created": "2020-10-12T11:24:56.263Z",
-    "intents": []
+  "version": 1,
+  "exportVersion": "1",
+  "model": null,
+  "modelMinConfidence": null,
+  "answerModel": null,
+  "answerModelMinConfidence": null,
+  "type": "nuance",
+  "intents": [
+    {
+      "name": "TEAM_43_START_QUIZ",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": null,
+      "fallbackToNoSession": true,
+      "entities": [],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    },
+    {
+      "name": "TEAM_43_QUIZ_ANSWER",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": null,
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "composer",
+          "type": "FREETEXT",
+          "fillPolicy": [
+            "none"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }
+  ]
 }
