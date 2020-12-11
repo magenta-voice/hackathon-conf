@@ -1,13 +1,14 @@
 [
   {
-    "name": "TEAM_12_MEMORIEREN",
-    "pattern": "(?:.*)memorieren(?:.*)",
+    "name": "TEAM_12_CREATE_FLASHCARD",
+    "pattern": "(?:.*)Erstellen Sie die Lernkarte(?:.*)",
     "entities": []
   },
-  
   {
-    "name": "TEAM_12_FRAGEN_CARD",
-    "pattern": "(?:.*)frag(?:.*)",
-    "entities": []
+    "name": "TEAM_12_FLASHCARD_REVIEW",
+    "pattern": "Fragen Sie mich zum Thema (.*)",
+    "entities": [
+      "topic"
+    ]
   }
 ]

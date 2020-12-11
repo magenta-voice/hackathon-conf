@@ -1,7 +1,7 @@
 [
     {
       "name": "TEAM_41_WHISPER",
-      "pattern": "(?:.*)Sind noch Schuhe in Größe(?:.*)",
+      "pattern": "(?:.*)Sind noch Schuhe in(?:.*)",
       "entities": []
     }
   ]
