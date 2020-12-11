@@ -1,7 +1,7 @@
 [
     {
       "name": "TEAM_41_WHISPER",
-      "pattern": "(?:.*)Wie viele Zylinder(?:.*)",
+      "pattern": "(?:.*)Sind noch Schuhe in(?:.*)",
       "entities": []
     }
   ]
