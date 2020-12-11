@@ -23,6 +23,26 @@
       "name": "TEAM_02_MATCHES_CONTACTS",
       "pattern": "(?:.*)[K|k]ontakte(?:.*)",
       "entities": []
+    },
+    {
+      "name": "TEAM_02_HOW_WORKS",
+      "pattern": "(?:.*)funktioniert(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_HOW_NO_MATCHES",
+      "pattern": "(?:.*)bekomme ich keine(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_HOW_MANY_QUESTIONS",
+      "pattern": "(?:.*)insgesamt(?:.*)",
+      "entities": []
+    },
+    {
+      "name": "TEAM_02_ADD_SOCIAL_MEDIA_USERNAME",
+      "pattern": "(?:.*)[V|v]erbinde(?:.*)",
+      "entities": []
     }
 ]
   
