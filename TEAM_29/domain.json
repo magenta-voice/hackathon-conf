@@ -9,63 +9,29 @@
     "created": null,
     "intents": [
         {
-            "name": "TEAM_29_ORDER_FOOD",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
+            "name": "TEAM_29_FOODBOT",
+            "ttl": { "interactions": 0, "minutes": 0 },
             "requiredEntities": [],
             "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
+            "fallbackToNoSession": true,
+            "entities": [],
             "prompts": [],
             "requiredTokens": [],
             "errors": []
         },
         {
-            "name": "TEAM_29_VEG",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
+            "name": "ORDER_FOOD_MEAL_OPTIONS",
+            "ttl": { "interactions": 0, "minutes": 0 },
             "requiredEntities": [],
             "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
+            "fallbackToNoSession": true,
+            "entities": [],
             "prompts": [],
             "requiredTokens": [],
             "errors": []
         },
         {
-            "name": "TEAM_29_HALLOUMI_SALAT",
+            "name": "TEAM_29_MEAL_TYPE",
             "ttl": {
                 "interactions": 0,
                 "minutes": 0
@@ -75,231 +41,7 @@
             "fallbackToNoSession": false,
             "entities": [
                 {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_FRESH_DELIGHT",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_MAKALI_SANDWICH",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_OVER_THE_RAINBOW",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_FLEISCH",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_TORI_TERIYAKI",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_MOUSAKA",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_KEBAB_SANDWICH",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
-                    "type": "FREETEXT",
-                    "fillPolicy": [
-                        "context"
-                    ],
-                    "ttl": {
-                        "interactions": 0,
-                        "minutes": 0
-                    },
-                    "useFromSession": false,
-                    "mappable": true
-                }
-            ],
-            "prompts": [],
-            "requiredTokens": [],
-            "errors": []
-        },
-        {
-            "name": "TEAM_29_MAKI_MIX_SPECIAL",
-            "ttl": {
-                "interactions": 0,
-                "minutes": 0
-            },
-            "requiredEntities": [],
-            "entityFiller": "",
-            "fallbackToNoSession": false,
-            "entities": [
-                {
-                    "name": "category",
+                    "name": "meal_type",
                     "type": "FREETEXT",
                     "fillPolicy": [
                         "context"

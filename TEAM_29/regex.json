@@ -1,7 +1,12 @@
 [
   {
     "name": "TEAM_29_ORDER_FOOD",
-    "pattern": "(.*)essen(?:.*)",
+    "pattern": "(?:.*)(essen|hunger|bestellen)(?:.*)",
+    "entities": []
+  },
+  {
+    "name": "TEAM_29_FOODBOT",
+    "pattern": "(?:.*)(what|food bot|bot)(?:.*)",
     "entities": []
   }
 ]

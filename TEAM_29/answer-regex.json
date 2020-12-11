@@ -1,53 +1,8 @@
 [
     {
-      "name": "TEAM_29_VEG",
-      "pattern": "(.*)vegetarisch(?:.*)",
-      "entities": []
-    },
-    {
-        "name": "TEAM_29_HALLOUMI_SALAT",
-        "pattern": "(.*)halloumi(?:.*)",
-        "entities": []
-      },
-      {
-        "name": "TEAM_29_FRESH_DELIGHT",
-        "pattern": "(.*)fresh delight(?:.*)",
-        "entities": []
-      },
-      {
-        "name": "TEAM_29_MAKALI_SANDWICH",
-        "pattern": "(.*)makali sandwich(?:.*)",
-        "entities": []
-      },
-      {
-        "name": "TEAM_29_OVER_THE_RAINBOW",
-        "pattern": "(.*)rainbow(?:.*)",
-        "entities": []
-      },
-      {
-        "name": "TEAM_29_FLEISCH",
-        "pattern": "(.*)Fleischgerichte(?:.*)",
-        "entities": []
-      },
-      {
-          "name": "TEAM_29_TORI_TERIYAKI",
-          "pattern": "(.*)teriyaki(?:.*)",
-          "entities": []
-        },
-        {
-          "name": "TEAM_29_MOUSAKA",
-          "pattern": "(.*)mousaka(?:.*)",
-          "entities": []
-        },
-        {
-          "name": "TEAM_29_KEBAB_SANDWICH",
-          "pattern": "(.*)kebab(?:.*)",
-          "entities": []
-        },
-        {
-          "name": "TEAM_29_MAKI_MIX_SPECIAL",
-          "pattern": "(.*)maki mix(?:.*)",
-          "entities": []
-        }
+      "name": "TEAM_29_MEAL_TYPE",
+      "pattern": "(?:.*)([v|V]egetarische|[f|F]leisch?)(?:.*)",
+      "entities": ["meal_type"]
+    }
   ]
   
