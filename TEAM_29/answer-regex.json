@@ -2,52 +2,52 @@
     {
       "name": "TEAM_29_VEG",
       "pattern": "(.*)vegetarisch(?:.*)",
-      "entities": ["veg"]
+      "entities": []
     },
     {
         "name": "TEAM_29_HALLOUMI_SALAT",
         "pattern": "(.*)halloumi(?:.*)",
-        "entities": ["halloumi salat"]
+        "entities": []
       },
       {
         "name": "TEAM_29_FRESH_DELIGHT",
         "pattern": "(.*)fresh delight(?:.*)",
-        "entities": ["fresh delight"]
+        "entities": []
       },
       {
         "name": "TEAM_29_MAKALI_SANDWICH",
         "pattern": "(.*)makali sandwich(?:.*)",
-        "entities": ["makali sandwich"]
+        "entities": []
       },
       {
         "name": "TEAM_29_OVER_THE_RAINBOW",
         "pattern": "(.*)rainbow(?:.*)",
-        "entities": ["over the rainbow"]
+        "entities": []
       },
       {
         "name": "TEAM_29_FLEISCH",
         "pattern": "(.*)Fleischgerichte(?:.*)",
-        "entities": ["meat"]
+        "entities": []
       },
       {
           "name": "TEAM_29_TORI_TERIYAKI",
           "pattern": "(.*)teriyaki(?:.*)",
-          "entities": ["tori teriyaki"]
+          "entities": []
         },
         {
           "name": "TEAM_29_MOUSAKA",
           "pattern": "(.*)mousaka(?:.*)",
-          "entities": ["mousaka"]
+          "entities": []
         },
         {
           "name": "TEAM_29_KEBAB_SANDWICH",
           "pattern": "(.*)kebab(?:.*)",
-          "entities": ["kebab sandwich"]
+          "entities": []
         },
         {
           "name": "TEAM_29_MAKI_MIX_SPECIAL",
           "pattern": "(.*)maki mix(?:.*)",
-          "entities": ["maki mix special"]
+          "entities": []
         }
   ]
   
