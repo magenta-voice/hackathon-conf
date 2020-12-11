@@ -1,11 +1,144 @@
 {
-    "version": 1,
-    "exportVersion": "1",
-    "model": null,
-    "modelMinConfidence": null,
-    "answerModel": null,
-    "answerModelMinConfidence": null,
-    "type": "nuance",
-    "created": "2020-10-12T11:24:56.263Z",
-    "intents": []
+  "version": 2,
+  "exportVersion": "1",
+  "model": "SVH_PRODUCTION__DISPATCHER",
+  "modelMinConfidence": null,
+  "answerModel": "SVH_PRODUCTION__DISPATCHER",
+  "answerModelMinConfidence": null,
+  "type": "nuance",
+  "created": "2020-10-29T14:56:27.813Z",
+  "intents": [
+    {
+      "name": "TEAM_35_START_VIRTUAL_TEACHER",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": null,
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "stt_text",
+          "type": "STT_TEXT",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": false,
+          "mappable": false
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": [
+        {
+          "errorCode": "STT_FAILED",
+          "matchesEntities": [],
+          "messages": [
+            [
+              "Wie bitte?",
+              "Und jetzt sind Sie an der Reihe.",
+              "Tut mir Leid. Ich konnte leider noch nichts hören.",
+              "Entschuldigung. Falls Sie etwas gesagt haben, wiederholen Sie es doch bitte noch einmal."
+            ]
+          ]
+        },
+        {
+          "errorCode": "TOO_MANY_REPROMPTS",
+          "matchesEntities": [],
+          "messages": [
+            [
+              "Kommen Sie gern wieder jederzeit auf mich zu. Bis bald.",
+              "Melden Sie sich gern wieder bei mir, wenn Sie eine Frage haben. Auf Wiedersehen.",
+              "Es scheint so, als ob Sie nicht mehr da sind. Dann verabschiede ich mich hiermit.",
+              "Dann sprechen wir einfach wann anders weiter. Auf Wiedersehen."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CVI_INTERNAL_ASK_FREETEXT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": null,
+      "fallbackToNoSession": true,
+      "entities": [
+        {
+          "name": "stt",
+          "type": "STT_TEXT",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": false,
+          "mappable": false
+        },
+        {
+          "name": "originalIntent",
+          "type": "FREETEXT",
+          "fillPolicy": [
+            "none"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": false,
+          "mappable": false
+        },
+        {
+          "name": "user_id",
+          "type": "USER_ID_HASH",
+          "fillPolicy": [
+            "environment"
+          ],
+          "ttl": {
+            "interactions": 0,
+            "minutes": 0
+          },
+          "useFromSession": true,
+          "mappable": true
+        }
+      ],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": [
+        {
+          "errorCode": "STT_FAILED",
+          "matchesEntities": [],
+          "messages": [
+            [
+              "Wie bitte?",
+              "Und jetzt sind Sie an der Reihe.",
+              "Tut mir Leid. Ich konnte leider noch nichts hören.",
+              "Entschuldigung. Falls Sie etwas gesagt haben, wiederholen Sie es doch bitte noch einmal."
+            ]
+          ]
+        },
+        {
+          "errorCode": "TOO_MANY_REPROMPTS",
+          "matchesEntities": [],
+          "messages": [
+            [
+              "Kommen Sie gern wieder jederzeit auf mich zu. Bis bald.",
+              "Melden Sie sich gern wieder bei mir, wenn Sie eine Frage haben. Auf Wiedersehen.",
+              "Es scheint so, als ob Sie nicht mehr da sind. Dann verabschiede ich mich hiermit.",
+              "Dann sprechen wir einfach wann anders weiter. Auf Wiedersehen."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,1 +1,7 @@
-[]
+[
+ {
+    "name": "TEAM_42_BREATHE_INTENT",
+    "pattern": "atme (.*)",
+    "entities": []
+  }
+]

@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "name": "TEAM_11_PLAN",
+    "pattern": "(?:.*)Plan(?:.*)",
+    "entities": []
+  }
+]

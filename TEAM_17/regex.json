@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "TEAM_17_SELECT",
+    "pattern": "Koch wählen (.+)",
+    "entities": ["target"]
+  },
+  {
+    "name": "TEAM_17_START",
+    "pattern": "Koch anfangen",
+    "entities": []
+  },
+  {
+    "name": "TEAM_17_REPEAT",
+    "pattern": "Koch nochmal",
+    "entities": []
+  },
+  {
+    "name": "TEAM_17_INGREDIENTS",
+    "pattern": "Koch Zutaten",
+    "entities": []
+  }
+]
