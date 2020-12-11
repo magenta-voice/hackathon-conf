@@ -1,22 +1,22 @@
 [ 
     {
       "name": "TEAM_12_FLASHCARD_QUESTION",
-      "pattern": "(D|d)ie (F|f)rage ist (.*)",
+      "pattern": "die frage ist (.*)",
       "entities": ["quiz"]
     },
     {
       "name": "TEAM_12_FLASHCARD_ANSWER",
-      "pattern": "(D|d)ie (A|n)ntwort ist (.*)",
+      "pattern": "die antwort ist (.*)",
       "entities": ["answer"]
     },
     {
       "name": "TEAM_12_FLASHCARD_TOPIC",
-      "pattern": "(D|d)as (T|t)hema ist (.*)",
+      "pattern": "das thema ist (.*)",
       "entities": ["topic"]
     },
     {
       "name": "TEAM_12_FLASHCARD_REVIEW_ANSWER",
-      "pattern": "(M|m)eine (A|n)ntwort ist (.*)",
+      "pattern": "meine antwort ist (.*)",
       "entities": ["answer"]
     }
 ]
