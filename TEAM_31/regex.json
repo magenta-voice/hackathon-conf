@@ -8,5 +8,10 @@
         "name": "TEAM_31_HOSA_START",
         "pattern": "(?:.*)hosa(?:.*)start(?:.*)",
         "entities": []
+    }, 
+    {
+        "name": "TEAM_31_HOSA_DONE",
+        "pattern": "(?:.*)hosa(?:.*)fertig(?:.*)",
+        "entities": []
     }
 ]
