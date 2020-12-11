@@ -1,7 +1,12 @@
 [
-  {
-    "name": "TEAM_03_TIP_INTENT",
-    "pattern": ".*\b[Hh](ome|eim)[- ]?([Oo]ffice|[Bb]üro) [Tt]ipp?\b.*",
-    "entities": []
-  }
+    {
+      "name": "TEAM_03_TIP_INTENT",
+      "pattern": "gib mir den tip des tages",
+      "entities": []
+    },
+    {
+      "name": "TEAM_03_TIP_INTENT",
+      "pattern": "(?:.*)Tip|Tipp (des Tages|(für|von) heute)( bitte)(?:.*)",
+      "entities": []
+    }
 ]
