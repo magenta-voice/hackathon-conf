@@ -1,7 +1,7 @@
 [
   {
     "name": "TEAM_03_TIP_INTENT",
-    "pattern": ".*\b[Tt]ipp? (des [Tt]ages|(für|von) [Hh]eute)( [Bb]itte)?$",
+    "pattern": ".*\b[Hh](ome|eim)[- ]?([Oo]ffice|[Bb]üro) [Tt]ipp?\b.*",
     "entities": []
   }
 ]
