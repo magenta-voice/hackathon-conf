@@ -23,5 +23,10 @@
         "name": "TEAM_02_ASK_QUESTIONS",
         "pattern": "(?:.*)bereit(?:.*)",
         "entities": []
-    }  
+    },
+    {
+        "name": "TEAM_02_ADD_SOCIAL_MEDIA_USERNAME_ANSWER",
+        "pattern": "(?:.*)[B|b]enutzername lautet(?:.*)",
+        "entities": []
+    }
 ]

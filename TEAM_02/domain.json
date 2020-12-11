@@ -234,6 +234,138 @@
         "errors": [
           
         ]
+      },
+      {
+        "name": "TEAM_02_HOW_WORKS",
+        "ttl": {
+          "interactions": 0,
+          "minutes": 0
+        },
+        "requiredEntities": [
+          
+        ],
+        "entityFiller": "",
+        "fallbackToNoSession": false,
+        "entities": [
+
+        ],
+        "prompts": [
+          
+        ],
+        "requiredTokens": [
+          
+        ],
+        "errors": [
+          
+        ]
+      },
+      {
+        "name": "TEAM_02_HOW_NO_MATCHES",
+        "ttl": {
+          "interactions": 0,
+          "minutes": 0
+        },
+        "requiredEntities": [
+          
+        ],
+        "entityFiller": "",
+        "fallbackToNoSession": false,
+        "entities": [
+
+        ],
+        "prompts": [
+          
+        ],
+        "requiredTokens": [
+          
+        ],
+        "errors": [
+          
+        ]
+      },
+      {
+        "name": "TEAM_02_HOW_MANY_QUESTIONS",
+        "ttl": {
+          "interactions": 0,
+          "minutes": 0
+        },
+        "requiredEntities": [
+          
+        ],
+        "entityFiller": "",
+        "fallbackToNoSession": false,
+        "entities": [
+
+        ],
+        "prompts": [
+          
+        ],
+        "requiredTokens": [
+          
+        ],
+        "errors": [
+          
+        ]
+      },
+      {
+        "name": "TEAM_02_ADD_SOCIAL_MEDIA_USERNAME",
+        "ttl": {
+          "interactions": 0,
+          "minutes": 0
+        },
+        "requiredEntities": [
+          
+        ],
+        "entityFiller": "",
+        "fallbackToNoSession": false,
+        "entities": [
+
+        ],
+        "prompts": [
+          
+        ],
+        "requiredTokens": [
+          
+        ],
+        "errors": [
+          
+        ]
+      },
+      {
+        "name": "TEAM_02_ADD_SOCIAL_MEDIA_USERNAME_ANSWER",
+        "ttl": {
+          "interactions": 0,
+          "minutes": 0
+        },
+        "requiredEntities": [
+          
+        ],
+        "entityFiller": "",
+        "fallbackToNoSession": false,
+        "entities": [
+          {
+            "name": "stt_text",
+            "type": "STT_TEXT",
+            "fillPolicy": [
+              "environment"
+            ],
+            "ttl": {
+              "interactions": 0,
+              "minutes": 0
+            },
+            "useFromSession": false,
+            "mappable": false
+          }
+        ],
+        "prompts": [
+          
+        ],
+        "requiredTokens": [
+          
+        ],
+        "errors": [
+          
+        ]
       }
     ]
   }
