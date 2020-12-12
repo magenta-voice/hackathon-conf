@@ -1,1 +1,62 @@
-{"version":1,"exportVersion":"1","model":null,"modelMinConfidence":0.5,"answerModel":null,"answerModelMinConfidence":0.5,"type":"nuance","created":null,"intents":[{"name":"TEAM_29_ORDER","ttl":{"interactions":0,"minutes":0},"requiredEntities":[],"entityFiller":"","fallbackToNoSession":false,"entities":[{"name":"category","type":"FREETEXT","fillPolicy":["context"],"ttl":{"interactions":0,"minutes":0},"useFromSession":false,"mappable":true}],"prompts":[],"requiredTokens":[],"errors":[]}]}
+{
+    "version": 1,
+    "exportVersion": "1",
+    "model": null,
+    "modelMinConfidence": 0.5,
+    "answerModel": null,
+    "answerModelMinConfidence": 0.5,
+    "type": "nuance",
+    "created": null,
+    "intents": [
+        {
+            "name": "TEAM_29_FOODBOT",
+            "ttl": { "interactions": 0, "minutes": 0 },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_29_ORDER_FOOD",
+            "ttl": { "interactions": 0, "minutes": 0 },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_29_MEAL_TYPE",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": false,
+            "entities": [
+                {
+                    "name": "meal_type",
+                    "type": "FREETEXT",
+                    "fillPolicy": [
+                        "context"
+                    ],
+                    "ttl": {
+                        "interactions": 0,
+                        "minutes": 0
+                    },
+                    "useFromSession": false,
+                    "mappable": true
+                }
+            ],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        }
+    ]
+}
