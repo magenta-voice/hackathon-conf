@@ -1,12 +1,12 @@
 [
   {
     "name": "TEAM_12_CREATE_FLASHCARD",
-    "pattern": "(?:.*)(?:erstellen|erstell) (?:Sie|) (?:die|) (?:Lärmkarte|Landkarte|Lernkarte)(?:.*)",
+    "pattern": "(?:.*)(?:erstellen|erstell) (?:Sie)? (?:die)? (?:Lärmkarte|Landkarte|Lernkarte)(?:.*)",
     "entities": []
   },
   {
     "name": "TEAM_12_FLASHCARD_REVIEW",
-    "pattern": "(?:.*)(?:fragen|frag) (?:Sie|) (?:mich|) (?:zum|) Thema (.*)",
+    "pattern": "(?:.*)(?:fragen|frag) (?:Sie)? (?:mich)? (?:zum|) Thema (.*)",
     "entities": [
       "topic"
     ]

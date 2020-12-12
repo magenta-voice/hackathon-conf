@@ -1,7 +1,7 @@
 [ 
     {
       "name": "TEAM_12_FLASHCARD_QUESTION",
-      "pattern": "(?:die|) frage ist (.*)",
+      "pattern": "(?:die)? frage ist (.*)",
       "entities": ["quiz"]
     },
     {
@@ -11,7 +11,7 @@
     },
     {
       "name": "TEAM_12_FLASHCARD_TOPIC",
-      "pattern": "(?:das|) thema ist (.*)",
+      "pattern": "(?:das)? thema ist (.*)",
       "entities": ["topic"]
     },
     {
