@@ -1,17 +1,17 @@
 [
     {
       "name": "TEAM_31_HOSA_CONFIG",
-      "pattern": "(?:.*)hosa(?:.*)einstellung(?:.*)",
+      "pattern": "(?:.*)(R|r|H|h)osa(?:.*)(E|e)instellung(?:.*)",
       "entities": []
     }, 
     {
         "name": "TEAM_31_HOSA_START",
-        "pattern": "(?:.*)hosa(?:.*)start(?:.*)",
+        "pattern": "(?:.*)(R|r|H|h)osa(?:.*)(S|s)tart(?:.*)",
         "entities": []
     }, 
     {
         "name": "TEAM_31_HOSA_DONE",
-        "pattern": "(?:.*)hosa(?:.*)fertig(?:.*)",
+        "pattern": "(?:.*)(R|r|H|h)osa(?:.*)(F|f)ertig(?:.*)",
         "entities": []
     }
 ]
