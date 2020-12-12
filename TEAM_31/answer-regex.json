@@ -1,1 +1,22 @@
-[]
+[
+  {
+      "name": "TEAM_31_HOSA_YES",
+      "pattern": "(?:.*)(J|j)a*. auf jeden (F|f)all(?:.*)|(?:.*)(J|j)a*. ich will(?:.*)",
+      "entities": []
+    }, 
+    {
+      "name": "TEAM_31_HOSA_NO",
+      "pattern": "(?:.*)(N|n)ein*. auf keinen (F|f)all(?:.*)|(?:.*)(N|n)ein*. bitte nicht*.(?:.*)",
+      "entities": []
+    }, 
+    {
+        "name": "TEAM_31_HOSA_CHOOSE",
+        "pattern": "(?:.*)(I|i)ch wähle(?:.*)",
+        "entities": []
+    }, 
+    {
+        "name": "TEAM_31_HOSA_RANDOM",
+        "pattern": "(?:.*)(Z|z)ufall(?:.*)",
+        "entities": []
+    }
+]

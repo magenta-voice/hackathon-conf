@@ -1,13 +1,20 @@
 [
   {
-    "name": "TEAM_12_MEMORIEREN",
-    "pattern": "(?:.*)Lernkarte überprüfen(?:.*)",
+    "name": "TEAM_12_CREATE_FLASHCARD",
+    "pattern": "(?:.*)(?:erstellen|erstell) (?:Sie)? (?:die)? (?:Lärmkarte|Landkarte|Lernkarte)(?:.*)",
     "entities": []
   },
-  
   {
-    "name": "TEAM_12_FRAGEN_CARD",
-    "pattern": "(?:.*)Lernkarte erstellen(?:.*)",
-    "entities": []
+    "name": "TEAM_12_FLASHCARD_REVIEW",
+    "pattern": "(?:.*)(?:fragen|frag) (?:Sie)? (?:mich)? (?:zum)? Thema (.*)",
+    "entities": [
+      "topic"
+    ]
+  },
+  {
+    "name": "TEAM_12_STATISTICS",
+    "pattern": "(?:.*)fortschritt(?:.*)",
+    "entities": [
+    ]
   }
 ]

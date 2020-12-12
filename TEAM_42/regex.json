@@ -1,12 +1,7 @@
 [
-  {
+ {
     "name": "TEAM_42_BREATHE_INTENT",
-    "pattern": "Breathe (.*)",
-    "entities": []
-  },
-  {
-    "name": "TEAM_42_BREATHE_INTENT",
-    "pattern": "atme jetzt (.*)",
+    "pattern": "atme (.*)",
     "entities": []
   }
 ]

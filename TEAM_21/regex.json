@@ -1,13 +1,41 @@
 [
-    {
-      "name": "TEAM_21_ASK_HOBBIES",
-      "pattern": "(?:.*)[H|h]obbies (?:plan|erfass|eintrag)(?:en)?(?:.*)",
-      "entities": []
-    },
-    {
-        "name": "TEAM_21_TELL_HOBBIES",
-        "pattern": "(?:.*)Ich (?:mag(?:en)?|spiele(?:n)? (?:gern(?:e)?)?|treibe(?:n)?)(.*)(?:.*)",
-        "entities": ["hobbies"]
-      }
-  ]
-  
+  {
+    "name": "TEAM_21_TELL_HOBBIES",
+    "pattern": "(?:.*)(?:mag(?:en)?|spiele(?:n)? (?:gern(?:e)?)?|treibe(?:n)?|liebe(?:n)?) (.*)",
+    "entities": [
+      "hobbies"
+    ]
+  },
+  {
+    "name": "TEAM_21_CREATE_EVENT",
+    "pattern": "(?:.*)(?:[pP]lan(?:e)?(?:n)?|[Aa]ktivität(?:en)?) (?:erstelle|erfasse|eintrage|einsetze|plane)(?:n)?(?:.*)",
+    "entities": []
+  },
+  {
+    "name": "TEAM_21_CREATE_AUTOMATIC_EVENT",
+    "pattern": "(?:.*)automatisch (?:generiere|erstelle|einfüge)(?:n)?(?:.*)",
+    "entities": []
+  },
+  {
+    "name": "TEAM_21_OTHER_EVENTS",
+    "pattern": "(?:.*)([Ee]inkaufen|[fF]itness|[Gg]ym|[Ww]asser|[Kk]aufe|[sS]port)(?:.*)",
+    "entities": [
+      "activity"
+    ]
+  },
+  {
+    "name": "TEAM_21_ASK_HOBBIES",
+    "pattern": "(?:.*)[H|h](?:obbies|obby) (?:plan|erfass|eintrag|einsetze)(?:en)?(?:.*)",
+    "entities": [
+      "activity"
+    ]
+  },
+  {
+    "name": "TEAM_21_GYM",
+    "pattern": "(?:(\d*) [Ss]tunde(?:n) und (\d*) [Mm]inute(?:n))|(?:(\d*) [Mm]inute(?:n)|(\d*) [Ss]tunde(?:n))",
+    "entities": [
+      "hours",
+      "minutes"
+    ]
+  }
+]

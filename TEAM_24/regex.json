@@ -1,1 +1,57 @@
-[]
+[
+    {
+        "name": "TEAM_24_ASSIGN_TASK",
+        "pattern": "Weisen sie ([^.]+|\\S+) die Aufgabe\\s*([^.]+|\\S+) zu.",
+        "entities": ["username", "taskname"]
+      },
+    {
+        "name": "TEAM_24_BACKLOG",
+        "pattern": "(?:.*)Rückstand(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_24_COWORKER_STATUS",
+        "pattern": "Was macht \\s*([^.]+|\\S+)",
+        "entities": ["username"]
+    },
+    {
+        "name": "TEAM_24_SCHEDULE_MEETING",
+        "pattern": "Bitte vereinbaren Sie \\s*([^.]+|\\S+) Uhr ein Treffen mit \\s*([^.]+|\\S+).",
+        "entities": ["usernames", "time"]
+    },
+    {
+        "name": "TEAM_24_MY_DAY",
+        "pattern": "(?:.*)Übersicht(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_24_NEW_TASK",
+        "pattern": "Bitte erstellen Sie eine neue Aufgabe mit dem Namen \\s*([^.]+|\\S+).",
+        "entities": ["taskname"]
+    },
+    {
+        "name": "TEAM_24_OVERDUE_TASKS",
+        "pattern": "(?:.*)überfällige Aufgaben(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_24_PROJECT_STATUS",
+        "pattern": "(?:.*)Projektstatus(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_24_RECOMMEND_ALLOCATION",
+        "pattern": "(?:.*)empfehlen(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_24_UPDATE_ME",
+        "pattern": "(?:.*)Neuigkeiten(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_24_URGENT_TASKS",
+        "pattern": "(?:.*)dringend(?:.*)",
+        "entities": []
+    }
+  ]

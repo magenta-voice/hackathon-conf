@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "name": "TEAM_34_GITGUD_LAST",
+        "pattern": "(?:.*)(L|l)etzte (N|n)achricht(?:.*)|(?:.*)(N|n)euste (N|n)achricht(?:.*)|(?:.*)(L|l)etzter (C|c)ommit(?:.*)|(?:.*)(N|n)euste (C|c)ommit(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_34_GITGUD_RANDOM",
+        "pattern": "(?:.*)(Z|z)ufall(?:.*)|(?:.*)(R|r)andom(?:.*)",
+        "entities": []
+    }
+]

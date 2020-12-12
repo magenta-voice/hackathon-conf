@@ -9,7 +9,53 @@
   "created": null,
   "intents": [
     {
-      "name": "TEAM_17_SENSE_OF_LIFE",
+      "name": "TEAM_17_SELECT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [{
+        "name":"target",
+        "type":"FREETEXT",
+        "fillPolicy":["context"],
+        "ttl":{"interactions":0,"minutes":0},
+        "useFromSession":false,
+        "mappable":true
+      }],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }, {
+      "name": "TEAM_17_START",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }, {
+      "name": "TEAM_17_REPEAT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
+    }, {
+      "name": "TEAM_17_INGREDIENTS",
       "ttl": {
         "interactions": 0,
         "minutes": 0
