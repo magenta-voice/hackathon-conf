@@ -7,5 +7,76 @@
     "answerModelMinConfidence": null,
     "type": "nuance",
     "created": "2020-10-12T11:24:56.263Z",
-    "intents": []
+    "intents": [
+        {
+            "name": "TEAM_34_GITGUD_CONFIG",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_34_GITGUD_STATS",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_34_GITGUD_COMMIT",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_34_GITGUD_RANDOM",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        },
+        {
+            "name": "TEAM_34_GITGUD_LAST",
+            "ttl": {
+                "interactions": 0,
+                "minutes": 0
+            },
+            "requiredEntities": [],
+            "entityFiller": "",
+            "fallbackToNoSession": true,
+            "entities": [],
+            "prompts": [],
+            "requiredTokens": [],
+            "errors": []
+        }
+    ]
 }

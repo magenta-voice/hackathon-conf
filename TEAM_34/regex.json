@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "name": "TEAM_34_GITGUD_CONFIG",
+        "pattern": "(?:.*)gitgud(?:.*)einstellung(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_34_GITGUD_STATS",
+        "pattern": "(?:.*)gitgud(?:.*)stats(?:.*)",
+        "entities": []
+    },
+    {
+        "name": "TEAM_34_GITGUD_COMMIT",
+        "pattern": "(?:.*)gitgud(?:.*)commit(?:.*)",
+        "entities": []
+    }
+]
