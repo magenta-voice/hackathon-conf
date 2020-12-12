@@ -26,13 +26,11 @@
   {
     "name": "TEAM_21_ASK_HOBBIES",
     "pattern": "(?:.*)[H|h](?:obbies|obby) (?:plan|erfass|eintrag|einsetze)(?:en)?(?:.*)",
-    "entities": [
-      "activity"
-    ]
+    "entities": []
   },
   {
     "name": "TEAM_21_GYM",
-    "pattern": "(?:(\d*) [Ss]tunde(?:n) und (\d*) [Mm]inute(?:n))|(?:(\d*) [Mm]inute(?:n)|(\d*) [Ss]tunde(?:n))",
+    "pattern": "(?:([0-9]*) [Ss]tunde(?:n) und ([0-9]*) [Mm]inute(?:n))|(?:([0-9]*) [Mm]inute(?:n)|([0-9]*) [Ss]tunde(?:n))",
     "entities": [
       "hours",
       "minutes"
