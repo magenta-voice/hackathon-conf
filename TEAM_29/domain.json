@@ -20,7 +20,7 @@
             "errors": []
         },
         {
-            "name": "ORDER_FOOD_MEAL_OPTIONS",
+            "name": "TEAM_29_ORDER_FOOD",
             "ttl": { "interactions": 0, "minutes": 0 },
             "requiredEntities": [],
             "entityFiller": "",
