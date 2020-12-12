@@ -6,9 +6,15 @@
   },
   {
     "name": "TEAM_12_FLASHCARD_REVIEW",
-    "pattern": "Fragen Sie mich zum Thema (.*)",
+    "pattern": "(?:.*)Fragen Sie mich zum Thema (.*)",
     "entities": [
       "topic"
+    ]
+  },
+  {
+    "name": "TEAM_12_STATISTICS",
+    "pattern": "(?:.*)fortschritt(?:.*)",
+    "entities": [
     ]
   }
 ]
