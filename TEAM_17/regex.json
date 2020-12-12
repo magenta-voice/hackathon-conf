@@ -1,7 +1,7 @@
 [
   {
     "name": "TEAM_17_SELECT",
-    "pattern": "Koch wählen (.+)",
+    "pattern": "Koch jetzt (.+)",
     "entities": ["target"]
   },
   {
