@@ -30,7 +30,7 @@
   },
   {
     "name": "TEAM_21_GYM",
-    "pattern": "(?:([0-9]*) [Ss]tunde(?:n) und ([0-9]*) [Mm]inute(?:n))|(?:([0-9]*) [Mm]inute(?:n)|([0-9]*) [Ss]tunde(?:n))",
+    "pattern": "([0-9]*) [Ss]tunde(?:n)? und ([0-9]*) [Mm]inute(?:n)?|([0-9]*) [Mm]inute(?:n)?|([0-9]*) [Ss]tunde(?:n)?",
     "entities": [
       "hours",
       "minutes"
