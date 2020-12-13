@@ -67,6 +67,19 @@
       "prompts": [],
       "requiredTokens": [],
       "errors": []
+    }, {
+      "name": "TEAM_17_NEXT",
+      "ttl": {
+        "interactions": 0,
+        "minutes": 0
+      },
+      "requiredEntities": [],
+      "entityFiller": "",
+      "fallbackToNoSession": true,
+      "entities": [],
+      "prompts": [],
+      "requiredTokens": [],
+      "errors": []
     }
   ]
 }
