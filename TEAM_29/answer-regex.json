@@ -2,7 +2,7 @@
 [
     {
       "name": "TEAM_29_MEAL_TYPE",
-      "pattern": "(?:.*)(vegetarische|fleisch)(?:.*)",
+      "pattern": "(?:.*)(vegetarisch|fleisch)(?:.*)",
       "entities": ["meal_type"]
     }
   ]
